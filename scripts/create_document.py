@@ -69,9 +69,9 @@ if verification.exists():
             document.add_picture(str(screenshot), width=Inches(2.5))
             document.add_paragraph(name.replace('.png', '').capitalize())
 footer = section.footer.paragraphs[0]
-footer.text = 'Assignment 01 • Calculator • Review draft'
+footer.text = 'HetJani • CSC 4360 • Assignment 01'
 footer.runs[0].font.size = Pt(9)
 footer.runs[0].font.color.rgb = RGBColor.from_string('666666')
-output = ROOT / 'submission/YourName_Implementation_DRAFT.docx'
+output = ROOT / 'submission/HetJani_Implementation.docx'
 document.save(output)
 print(output)

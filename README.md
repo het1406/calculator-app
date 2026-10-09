@@ -1,7 +1,7 @@
 # Calculator
 
 A Flutter calculator for Assignment 01. The current implementation follows the
-CSC 4360 undergraduate pathway, pending confirmation of course enrollment.
+CSC 4360 undergraduate pathway for HetJani.
 
 ## Selected features
 
@@ -56,5 +56,10 @@ store distribution would require a private release key.
 The assignment calls for `github_link.txt`, `YourName_CalculatorApp.apk`, and
 `YourName_Implementation.docx`. Local submission artifacts are kept outside Git
 in `submission/`, so student IDs are not published to the repository.
-The rationale needs the student's confirmed name/ID, course level, complete
-reflection questions, and the actual second-agent responses before submission.
+The rationale answers the six reflection questions and includes an agent comparison.
+Add the student ID before submission.
+
+Repository: https://github.com/het1406/calculator-app
+
+Verification: 35 automated tests passed, static analysis is clean, and eight
+checks passed against the installed release APK on an Android emulator.

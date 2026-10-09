@@ -1,27 +1,37 @@
 00:00 +0: loading /Users/hetjani/Desktop/Homework1/test/widget_test.dart
-00:00 +0: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: 12 + 7 = 19
-00:00 +1: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: 3 − 8 = -5
-00:00 +2: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: 8 × 7 = 56
-00:00 +3: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: 9 ÷ 2 = 4.5
-00:00 +4: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: 0 × 987 = 0
-00:00 +5: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: 1 ÷ 3 = 0.333333333333
-00:00 +6: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: all clear removes a pending operation and every state flag
-00:00 +7: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: division by zero recovers with a digit
-00:00 +8: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: all clear recovers from an error
-00:00 +9: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: equals on empty input reports incomplete input
-00:00 +10: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: equals with only one operand reports incomplete input
-00:00 +11: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: missing second operand is not silently duplicated
-00:00 +12: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: operator can be replaced before second operand
-00:00 +13: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: extra operation after second operand reports recovery instruction
-00:00 +14: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: digit after result starts fresh
-00:00 +15: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: result can be first operand of next calculation
-00:00 +16: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: leading zeroes do not accumulate
-00:00 +17: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: input is limited to twelve digits
-00:00 +18: /Users/hetjani/Desktop/Homework1/test/calculator_state_test.dart: unknown buttons cannot corrupt state
-00:00 +19: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: buttons calculate and AC clears result
-00:00 +20: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: theme changes while calculation state is preserved
-00:00 +21: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: error is visible and can recover through a digit
-00:01 +22: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(320.0, 568.0) at double text scale
+00:00 +0: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: buttons calculate and AC clears result
+00:00 +1: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: theme changes while calculation state is preserved
+00:00 +2: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: error is visible and can recover through a digit
+00:01 +3: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(320.0, 568.0) at double text scale
+00:01 +4: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +5: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +6: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +7: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +8: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +9: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +10: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +11: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +12: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +13: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +14: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +15: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +16: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +17: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +18: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +19: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +20: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +21: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +22: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
 00:01 +23: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
-00:01 +24: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: accessible labels and tap targets
-00:01 +25: All tests passed!
+00:01 +24: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +25: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +26: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +27: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +28: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +29: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +30: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +31: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +32: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +33: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: layout fits Size(568.0, 320.0) at double text scale
+00:01 +34: /Users/hetjani/Desktop/Homework1/test/widget_test.dart: accessible labels and tap targets
+00:01 +35: All tests passed!

@@ -22,6 +22,10 @@ void main() {
     ['3', '−', '8', '-5'],
     ['8', '×', '7', '56'],
     ['9', '÷', '2', '4.5'],
+    ['8', '÷', '2', '4'],
+    ['12', '+', '8', '20'],
+    ['7', '÷', '4', '1.75'],
+    ['0', '×', '45', '0'],
     ['0', '×', '987', '0'],
     ['1', '÷', '3', '0.333333333333'],
   ]) {
@@ -117,5 +121,62 @@ void main() {
     calculator.selectOperator('?');
     expect(calculator.display, '0');
     expect(calculator.pendingOperator, isNull);
+  });
+  test(
+    'zero divided by zero is an error and recovers without stale operands',
+    () {
+      calculate('0', '÷', '0');
+      expect(calculator.display, 'Cannot divide by zero');
+      expect(calculator.showingResult, isFalse);
+      enter('4');
+      expect(calculator.firstOperand, isNull);
+      expect(calculator.pendingOperator, isNull);
+      calculator.selectOperator('+');
+      enter('2');
+      calculator.equals();
+      expect(calculator.display, '6');
+    },
+  );
+  test('repeated equals reports incomplete input and a new digit resets', () {
+    calculate('8', '÷', '2');
+    expect(calculator.display, '4');
+    calculator.equals();
+    expect(calculator.error, 'Enter two numbers and an operator');
+    enter('3');
+    expect(calculator.display, '3');
+    expect(calculator.error, isNull);
+    expect(calculator.firstOperand, isNull);
+  });
+  test('visible result and reused result agree: 56 plus 4 equals 60', () {
+    calculate('8', '×', '7');
+    expect(calculator.display, '56');
+    calculator.selectOperator('+');
+    enter('4');
+    calculator.equals();
+    expect(calculator.display, '60');
+  });
+  test('Gemini division-by-zero case reports an exact error', () {
+    calculate('10', '÷', '0');
+    expect(calculator.display, 'Cannot divide by zero');
+  });
+  test(
+    'Gemini repeated-operator case follows documented replacement policy',
+    () {
+      enter('8');
+      calculator.selectOperator('+');
+      calculator.selectOperator('×');
+      enter('3');
+      calculator.equals();
+      expect(calculator.display, '24');
+      expect(calculator.error, isNull);
+    },
+  );
+  test('Gemini state-drift case reuses displayed 8 to produce 10', () {
+    calculate('5', '+', '3');
+    expect(calculator.display, '8');
+    calculator.selectOperator('+');
+    enter('2');
+    calculator.equals();
+    expect(calculator.display, '10');
   });
 }
