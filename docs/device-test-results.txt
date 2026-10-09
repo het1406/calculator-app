@@ -1,0 +1,8 @@
+PASS: All clear → 1 → 2 → Add → 7 → Equals → Display 19
+PASS: All clear → 3 → Subtract → 8 → Equals → Display -5
+PASS: All clear → 8 → Multiply → 7 → Equals → Display 56
+PASS: All clear → 9 → Divide → 2 → Equals → Display 4.5
+PASS: theme switch preserves result 4.5
+PASS: division by zero shows recoverable error
+PASS: digit after error starts fresh; 3 + 2 = 5
+PASS: incomplete operation reports error; AC resets display
